@@ -1,1 +1,69 @@
-{"0": {"side": "", "open value": 0, "close time": "2023-10-13 18:03:23", "close value": 26704.74, "profit": 26704.74, "profit perc": 100.0}, "1": {"side": "sell", "start time": "2023-10-13 18:03:23", "open value": 26704.74}}
+{
+    "0": {
+        "side": "sell",
+        "open value": 0,
+        "close time": "2023-10-13 18:19:29",
+        "close value": 26749.4,
+        "profit": -26749.4,
+        "profit perc": -100.0
+    },
+    "1": {
+        "side": "buy",
+        "start time": "2023-10-13 18:19:29",
+        "open value": 26749.4,
+        "close time": "2023-10-13 19:16:10",
+        "close value": 26739.89,
+        "profit": -9.510000000002037,
+        "profit perc": -0.035564843385676
+    },
+    "2": {
+        "side": "sell",
+        "start time": "2023-10-13 19:16:10",
+        "open value": 26739.89,
+        "close time": "2023-10-13 20:03:29",
+        "close value": 26770.41,
+        "profit": -30.520000000000437,
+        "profit perc": -0.11400647207121757
+    },
+    "3": {
+        "side": "buy",
+        "start time": "2023-10-13 20:03:29",
+        "open value": 26770.41,
+        "close time": "2023-10-13 20:42:34",
+        "close value": 26745.8,
+        "profit": -24.610000000000582,
+        "profit perc": -0.09201444712814941
+    },
+    "4": {
+        "side": "sell",
+        "start time": "2023-10-13 20:42:34",
+        "open value": 26745.8,
+        "close time": "2023-10-13 22:38:57",
+        "close value": 26773.28,
+        "profit": -27.479999999999563,
+        "profit perc": -0.10263964669252167
+    },
+    "5": {
+        "side": "buy",
+        "start time": "2023-10-13 22:38:57",
+        "open value": 26773.28,
+        "close time": "2023-10-13 22:40:15",
+        "close value": 26773.63,
+        "profit": 0.3500000000021828,
+        "profit perc": 0.0013072564310561653
+    },
+    "6": {
+        "side": "sell",
+        "start time": "2023-10-13 22:40:15",
+        "open value": 26773.63,
+        "close time": "2023-10-13 23:32:22",
+        "close value": 27004.19,
+        "profit": -230.55999999999767,
+        "profit perc": -0.8537934298343987
+    },
+    "7": {
+        "side": "buy",
+        "start time": "2023-10-13 23:32:22",
+        "open value": 27004.19
+    }
+}

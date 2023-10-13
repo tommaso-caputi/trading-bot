@@ -1,4 +1,4 @@
-import json
+""" import json
 
 
 def get_ema_from_file(name):
@@ -40,3 +40,13 @@ for i in range(len(a)):
 
 
 print(diffs)
+ """
+
+import tradingview_ta
+
+handler = tradingview_ta.TA_Handler(
+    symbol="BTCUSDC", exchange="KRAKEN", screener="crypto", interval="1m", timeout=None
+)
+
+analysis = handler.get_analysis()
+print(analysis.summary)

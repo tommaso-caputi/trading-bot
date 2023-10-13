@@ -1,6 +1,7 @@
 import json
 import time
 import requests
+import tradingview_ta
 
 
 # functions for json file handle
@@ -45,6 +46,20 @@ def set_new_trade(trade):
 
 
 # functions for market data handle
+
+
+def get_analysis():
+    handler = tradingview_ta.TA_Handler(
+        symbol="BTCUSDC",
+        exchange="KRAKEN",
+        screener="crypto",
+        interval="1m",
+        timeout=None,
+    )
+    analysis = handler.get_analysis()
+    return analysis.summary
+
+
 def get_ema(period, interval):
     url = (
         "https://api.taapi.io/ema?secret=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbHVlIjoiNjI0MWY4MGI0MjI0NmNlM2IwMWU3MjdiIiwiaWF0IjoxNjk3MTk0Mzk4LCJleHAiOjMzMjAxNjU4Mzk4fQ.MCTy5eLpNQgEq3goFSwmWgUTgdYUWdx6hBctL-yPtaA&exchange=binance&symbol=BTC/USDT&backtrack=1&interval="
