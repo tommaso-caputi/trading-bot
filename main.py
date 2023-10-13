@@ -2,12 +2,6 @@ import schedule
 import time
 from utils import *
 
-count = 0
-
-
-def trade():
-    pass
-
 
 def main():
     global count
@@ -34,7 +28,7 @@ def main():
 
 schedule.every(1).minutes.do(main)
 
-
+count = 0
 if __name__ == "__main__":
     main()
     while True:
